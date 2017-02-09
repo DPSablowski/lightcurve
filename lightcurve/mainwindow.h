@@ -18,6 +18,14 @@ public:
 private slots:
     void on_pushButton_2_clicked();
 
+    void on_pushButton_3_clicked();
+
+    double function();
+
+    void on_doubleSpinBox_valueChanged();
+
+    void on_doubleSpinBox_2_valueChanged();
+
 private:
     Ui::MainWindow *ui;
 };
